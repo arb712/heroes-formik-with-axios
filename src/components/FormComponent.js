@@ -1,73 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Button , Card , Form} from 'react-bootstrap';
 import axios from 'axios';
 import { Formik } from 'formik';
-
-
-// const Button1 = () => {
-//   return (
-//     <>
-//     <Button variant="primary">Primary</Button>
-//     </>
-//   )
-// }
-
-// document.getElementById('simpanHeroes').addEventListener('click',function(event){
-
-
-//   const fullName = document.getElementsByName('fullName')[0].value;
-//   const born = document.getElementsByName('born')[0].value;
-//   const died = document.getElementsByName('died')[0].value;
-//   const description = document.getElementsByName('description')[0].value;
-//   const establishment = document.getElementsByName('establishment')[0].value;
-//   const imgUrl = document.getElementsByName('imgUrl')[0].value;
-  
-//   axios.post('http://localhost:3001/heroes', {
-//     fullName,
-//     born,
-//     died,
-//     description,
-//     establishment,
-//     imgUrl
-//   })
-// })
-
-
-
-// const Input = () => {
-//   axios.post('http://localhost:3001/heroes', formik.values)
-//   const formik = withFormik({
-//     initialValues :{
-
-//     },
-//     onSubmit: values => {
-//       console.log(values)
-//     },
-//   });
-
-    
-
-//   return(
-//     <>
-
-//     </>
-//   )
-// }
-
-// export default Input;
-
-
+import Logo from '../nkri.png'
 
 const forms = () => {
-  // let handleOnSubmit = (values, actions) =>{
-    
-  // }
-
   return(
       <div>
-    {/* <h1>My Form</h1> */}
     <Formik
-      initialValues={{       
+      initialValues={{  
+        id:'',     
       fullName:'',
       born:'',
       died:'',
@@ -89,9 +31,8 @@ const forms = () => {
     >
       {props => (
             <form onSubmit={props.handleSubmit}>
-            <Card style={{ width: '25rem' }}>
-        <Card.Img variant="top" src="foto" />
-        <br/>
+            <Card style={{ width: '25rem'}} >
+        <Card.Img variant="top" src={Logo} style={{ marginTop:'-55px',width:'100%' }} />
         <Card.Body style={{ color:'black' }}>
           <label >Full Name</label>
           <input
@@ -148,7 +89,7 @@ const forms = () => {
               placeholder="URL Image"
             /><br/>
             
-        <Button variant="primary" type="submit" id="simpanHeroes">
+        <Button variant="primary" type="submit" id="simpanHeroes" style={{marginTop:'20px'}}>
           Submit
         </Button>
         </Card.Body>
