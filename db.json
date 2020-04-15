@@ -1,0 +1,49 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "fullname": "Ahmad Yani",
+      "born": "1922",
+      "died": "1965",
+      "description": "Pemimpin Angkatan Darat, terbunuh saat Gerakan 30 September",
+      "establishment": "1965",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ahmad_Yani.jpg"
+    },
+    {
+      "fullName": "Ahmad Rifa'i",
+      "born": "1786",
+      "died": "1870",
+      "description": "Pemikir dan penulis Islam yang dikenal karena pernyataan anti-Belandanya",
+      "establishment": "2004",
+      "imgUrl": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fpahlawan212.blogspot.com%2F&psig=AOvVaw2zkfpII020oqlZ1PLLQkN-&ust=1587029167718000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCaj8KO6ugCFQAAAAAdAAAAABAD",
+      "id": 2
+    },
+    {
+      "fullName": "Bagindo Azizchan",
+      "born": "1910",
+      "died": "1947",
+      "description": "Wali kota Padang, melawan pasukan Belanda saat Revolusi Nasional",
+      "establishment": "2005",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bagindo_Azizchan.jpg",
+      "id": 3
+    },
+    {
+      "fullName": "Basuki Rahmat",
+      "born": "1921",
+      "died": "1969",
+      "description": "Jenderal, saksi dari Supersemar",
+      "establishment": "1969",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/BasukiRachmat.jpg",
+      "id": 4
+    },
+    {
+      "fullName": "Cut Nyak Dhien",
+      "born": "1850",
+      "died": "1908",
+      "description": "Pemimpin gerilyawan Aceh yang melakukan penyerangan terhadap pasukan kolonial belanda; istri Teuku Umar",
+      "establishment": "1964",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Tjoet_Nya%27_Dhien.jpg",
+      "id": 5
+    }
+  ]
+}
