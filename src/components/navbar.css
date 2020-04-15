@@ -1,0 +1,96 @@
+div{
+    background-color: whitesmoke;
+}
+.parent{
+    width: 100%;
+
+}
+.logoName{
+    background-color: #043daf;
+    color: white;
+    font-size: 1px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    top: 0px;
+}
+.logoName h1{
+    margin-top: 5px;
+}
+.bg-color{
+    background-color: blue;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bg-color ul{
+    list-style: none;
+    display:flex;
+}
+
+.bg-color ul li a{
+    color:white;
+    text-decoration: none;
+    padding:10px 15px 10px 15px;
+    display: block;
+    cursor: default;
+}
+.bg-color ul li a:hover{
+    color:black;
+    background-color: white;
+}
+.content{
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    height: 65vh;
+}
+.textLanding{
+    margin-top: 220px;
+}
+
+.parentFooter{
+    width: 100%;
+}
+.parentFooter ul{
+    background-color: teal;
+    display: inline-block;
+    
+    list-style: none;
+    
+}
+.contact2{
+    color: white;
+    background-color: #043daf;
+    text-align: center;
+padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact{
+    padding: 15px 15px 10px 15px;
+    border-radius: 10px;
+}
+.contact li a{
+    display: block;
+    color: black !important;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border: 1px solid red;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+.foot{
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+    display:inline-flex
+}
+.cardParent{
+    border: red;
+}

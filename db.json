@@ -17,6 +17,33 @@
       "description": "Pemikir dan penulis Islam yang dikenal karena pernyataan anti-Belandanya",
       "establishment": "2004",
       "imgUrl": "https://www.google.com/url?sa=i&url=http%3A%2F%2Fpahlawan212.blogspot.com%2F&psig=AOvVaw2zkfpII020oqlZ1PLLQkN-&ust=1587029167718000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCaj8KO6ugCFQAAAAAdAAAAABAD"
+    },
+    {
+      "id": 3,
+      "fullName": "Donald Izacus Panjaitan",
+      "born": "1925",
+      "died": "1965",
+      "description": "Jenderal Angkatan Darat, terbunuh dalam Gerakan 30 September",
+      "establishment": "1965",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Panjaitan.jpg"
+    },
+    {
+      "id": 4,
+      "fullName": "Fatmawati",
+      "born": "1923",
+      "died": "1980",
+      "description": "Pembuat bendera nasional pertama, aktivis sosial, istri Sukarno",
+      "establishment": "2000",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Fatmawati_Soekarno_%281966%29.jpg"
+    },
+    {
+      "id": 5,
+      "fullName": "aaaa",
+      "born": "141",
+      "died": "14",
+      "description": "asfasf",
+      "establishment": "1964",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/BasukiRachmat.jpg"
     }
   ]
 }

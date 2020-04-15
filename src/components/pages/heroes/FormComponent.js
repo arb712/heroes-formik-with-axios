@@ -1,12 +1,13 @@
-import React, {Component} from 'react';
-import { Button , Card , Form} from 'react-bootstrap';
+import React from 'react';
+import { Button , Card } from 'react-bootstrap';
 import axios from 'axios';
 import { Formik } from 'formik';
-import Logo from '../nkri.png'
+import Logo from './nkri.png'
 
 const forms = () => {
   return(
       <div>
+                <header className="App-header">
     <Formik
       initialValues={{  
         id:'',     
@@ -31,8 +32,8 @@ const forms = () => {
     >
       {props => (
             <form onSubmit={props.handleSubmit}>
-            <Card style={{ width: '25rem'}} >
-        <Card.Img variant="top" src={Logo} style={{ marginTop:'-55px',width:'100%' }} />
+            <Card style={{ width: '60vh',border:'3px solid black'}}>
+        <Card.Img variant="top" src={Logo} style={{paddingTop:'-210px',width:'100%' }} />
         <Card.Body style={{ color:'black' }}>
           <label >Full Name</label>
           <input
@@ -97,6 +98,7 @@ const forms = () => {
       </form>
       )}
     </Formik>
+    </header>
   </div>
   )
 };
